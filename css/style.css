@@ -10,6 +10,7 @@
     --my_color2: #fff;
     --my_color3: #1f1f1f;
     --my_color4: #bebcbb;
+    --my_color5: #161c3b;
     --my_btn_color1: #363636;
     --my_btn_color2: #cd3d0f;
     --my_btn_color3: #005fc5;
@@ -197,6 +198,33 @@ header .my_btn {
 }
 /* End of sconti */
 
+/* Start of ps_now */
+#ps_now {
+    background-color: var(--my_color5);
+}
+
+#ps_now .logo_psnow {
+    width: 200px;
+}
+
+#ps_now .my_btn {
+    background-color: var(--my_color2);
+    color: var(--my_color1);
+}
+
+#ps_now .my_img {
+    width: 100%;
+}
+
+#ps_now .my_hidden {
+    display: none;
+}
+
+#ps_now .img_psnow {
+    width: 100%;
+}
+/* End of ps_now */
+
 /* End of main */
 
 
@@ -208,6 +236,9 @@ header .my_btn {
     }
     /* Start of main */
     #p_plus .my_container_hidden {
+        display: block;
+    }
+    #ps_now .my_hidden {
         display: block;
     }
 }
