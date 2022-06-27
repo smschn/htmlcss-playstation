@@ -8,6 +8,7 @@
 :root {
     --my_color1: #000;
     --my_color2: #fff;
+    --my_color3: #1f1f1f;
     --my_btn_color1: #363636;
     --my_btn_color2: #cd3d0f;
     --my_btn_color3: #005fc5;
@@ -137,7 +138,7 @@ header .my_btn {
 }
 
 #takes_two .game_title_logo {
-    width: 300px;
+    width: 250px;
 }
 
 #takes_two .my_btn {
@@ -145,10 +146,23 @@ header .my_btn {
 }
 /* End of takes_two */
 
+/* Start of nuove_uscite */
+#nuove_uscite {
+    background-color: var(--my_color3);
+    height: 200px;
+}
+/* End of nuove_uscite */
+
 /* End of main */
 
 
 /* Start of media queries */
+@media screen and (min-width: 768px) {
+    /* Start of header */
+    #takes_two .game_title_logo {
+        width: 300px;
+    }
+}
 @media screen and (min-width: 992px) {
     /* Start of header */
     header .h_bottom_left ul {
@@ -176,6 +190,7 @@ header .my_btn {
         position: absolute;
         left: 20px;
         width: 40%;
+        padding: 0;
     }
     #takes_two .game_title_logo {
         width: 150px;
