@@ -236,9 +236,11 @@ header .my_btn {
 footer .my_container {
     background-color: var(--my_btn_color3);
 }
+
+footer .sie_logo {
+    width: 150px;
+}
 /* End of footer */
-
-
 
 /* Start of media queries */
 @media screen and (min-width: 768px) {
