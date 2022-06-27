@@ -230,8 +230,14 @@ header .my_btn {
     width: 100%;
 }
 /* End of social_media */
-
 /* End of main */
+
+/* Start of footer */
+footer .my_container {
+    background-color: var(--my_btn_color3);
+}
+/* End of footer */
+
 
 
 /* Start of media queries */
@@ -283,21 +289,7 @@ header .my_btn {
 }
 /* End of media queries s*/
 
-/* Debug rules */
-.my_bgc1 {
-    background-color: lightblue;
-    height: 100px;
-    border: 2px dashed red;
-}
-
-.my_box {
-    width: 100px;
-    height: 70px;
-    border: 2px dashed purple;
-}
-
 /* To do
-+ header fixed
 + bonus: hover on navbar items shows other items below
 + bonus: transition effect on cards (translate on y axis in direction to top)
 + bonus: hover effect in #ps5 with border bottom and 
