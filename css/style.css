@@ -55,10 +55,10 @@ header .h_bottom_right ul {
 /* Start of jumbotron */
 #jumbotron {
     margin-top: 88px;
-    background-image: url('../img/returnal-listing-thumb-01-ps5.jpg');
+    background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: center;
     width: 100%;
     height: 450px;
     position: relative;
@@ -79,6 +79,13 @@ header .h_bottom_right ul {
     background-color: var(--my_btn_color2);
 }
 /* End of jumbotron */
+
+/* Start of main */
+/* Start of cards */
+
+
+/* End of main */
+
 
 /* Start of media queries */
 @media screen and (min-width: 992px) {
