@@ -11,6 +11,7 @@
     --my_color3: #1f1f1f;
     --my_color4: #bebcbb;
     --my_color5: #161c3b;
+    --my_color6: #00439c;
     --my_btn_color1: #363636;
     --my_btn_color2: #cd3d0f;
     --my_btn_color3: #005fc5;
@@ -234,9 +235,15 @@ header .my_btn {
 
 /* Start of footer */
 footer .my_container {
-    background-color: var(--my_btn_color3);
+    background-color: var(--my_color6);
 }
 
+/* Start of footer top */
+footer .f_language {
+    width: 15px;
+}
+
+/* Start of footer bottom */
 footer .sie_logo {
     width: 150px;
 }
@@ -256,6 +263,7 @@ footer .sie_logo {
         display: block;
     }
 }
+
 @media screen and (min-width: 992px) {
     /* Start of header */
     header .h_bottom_left ul {
@@ -289,7 +297,7 @@ footer .sie_logo {
         width: 150px;
     }
 }
-/* End of media queries s*/
+/* End of media queries */
 
 /* To do
 + bonus: hover on navbar items shows other items below
