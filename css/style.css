@@ -156,6 +156,17 @@ header .my_btn {
 }
 /* End of nuove_uscite */
 
+/* Start of esplora_ps4 */
+#esplora_ps4 .img_esp {
+    width: 100%;
+}
+
+#esplora_ps4 .my_btn {
+    background-color: var(--my_btn_color3);
+    color: var(--my_color2);
+}
+/* End of esplora_ps4 */
+
 /* End of main */
 
 
