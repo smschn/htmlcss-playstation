@@ -90,6 +90,10 @@ header .my_btn {
 }
 
 /* Start of ps5 */
+#ps5 h6 {
+    color: var(--my_btn_color3);
+}
+
 #ps5 .ps5_img {
     width: 90%;
 }
@@ -98,6 +102,20 @@ header .my_btn {
     background-color: var(--my_btn_color3);
 }
 
+#ps5 .my_card:nth-child(2),
+#ps5 .my_card:nth-child(3),
+#ps5 .my_card:nth-child(4),
+#ps5 .my_card:nth-child(5) {
+    opacity: 0.5;
+}
+
+#ps5 .my_card img {
+    width: 100%;
+}
+
+#ps5 .my_card p {
+    display: none;
+}
 /* End of main */
 
 
@@ -117,6 +135,9 @@ header .my_btn {
     #jumbotron .my_container {
         width: 30%;
     }
+    #ps5 .my_card p {
+        display: inline-block;
+    } 
 }
 /* End of media queries */
 
@@ -137,3 +158,4 @@ header .my_btn {
 + header fixed
 + bonus: hover on navbar items shows other items below
 + bonus: transition effect on cards (translate on y axis in direction to top)
++ bonus: hover effect in #ps5 with border bottom and 
