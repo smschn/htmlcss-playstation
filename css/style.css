@@ -82,7 +82,9 @@ header .h_bottom_right ul {
 
 /* Start of main */
 /* Start of cards */
-
+#cards .my_card img {
+    width: 100%;
+}
 
 /* End of main */
 
