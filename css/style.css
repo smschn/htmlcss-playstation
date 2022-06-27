@@ -24,7 +24,6 @@
 
 /* General logo rules */
 
-
 /* Start of header */
 header {
     position: fixed;
@@ -191,6 +190,12 @@ header .my_btn {
     width: 100%;
 }
 /* End of p_plus */
+
+/* Start of sconti */
+#sconti .img_sconti {
+    width: 100%;
+}
+/* End of sconti */
 
 /* End of main */
 
