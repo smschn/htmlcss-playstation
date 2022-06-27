@@ -92,6 +92,9 @@ header .h_bottom_right ul {
         display: inline-block;
         display: flex;
     }
+    #jumbotron .my_container {
+        width: 30%;
+    }
 }
 /* End of media queries */
 
