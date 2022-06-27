@@ -56,7 +56,7 @@ header .my_btn {
 /* End of header */
 
 /* Start of jumbotron */
-#jumbotron {
+#jumbotron { /* unificare tutti e 3 i banner con un unica regola generica */
     margin-top: 88px;
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
@@ -116,6 +116,19 @@ header .my_btn {
 #ps5 .my_card p {
     display: none;
 }
+
+/* Start of takes_two */
+#takes_two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+/* End of takes_two */
+
 /* End of main */
 
 
