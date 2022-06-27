@@ -73,7 +73,7 @@ header .my_btn {
 
 #jumbotron .my_container {
     bottom: 40px;
-    left: 20px;
+    left: 12px;
     width: 90%;
     margin: auto;
     position: absolute;
@@ -149,7 +149,10 @@ header .my_btn {
 /* Start of nuove_uscite */
 #nuove_uscite {
     background-color: var(--my_color3);
-    height: 200px;
+}
+
+#nuove_uscite .img_nu {
+    width: 100%;
 }
 /* End of nuove_uscite */
 
@@ -188,9 +191,9 @@ header .my_btn {
     }
     #takes_two .my_container {
         position: absolute;
-        left: 20px;
+        left: 12px;
         width: 40%;
-        padding: 0;
+        padding-left: 0px !important;
     }
     #takes_two .game_title_logo {
         width: 150px;
