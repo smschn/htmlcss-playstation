@@ -13,22 +13,27 @@
 /* Start of h_top */
 header .h_top {
     background-color: var(--my_color1);
-    height: 40px;
+    height: 30px;
 }
 
 header .h_top img {
     height: 10px;
 }
 
+/* Start of h_bottom */
+
+
 /* Debug rules */
 .my_bgc1 {
     background-color: lightblue;
     height: 100px;
+    border: 2px dashed red;
 }
 
 .my_box {
     width: 100px;
     height: 70px;
+    border: 2px dashed purple;
 }
 
 /* To do
