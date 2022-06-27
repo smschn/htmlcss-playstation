@@ -243,6 +243,10 @@ footer .f_language {
     width: 15px;
 }
 
+footer li {
+    padding: 5px;
+}
+
 /* Start of footer bottom */
 footer .sie_logo {
     width: 150px;
@@ -256,6 +260,9 @@ footer .sie_logo {
         width: 300px;
     }
     /* Start of main */
+    #ps5 .my_card p {
+        display: inline-block;
+    } 
     #p_plus .my_container_hidden {
         display: block;
     }
@@ -281,9 +288,7 @@ footer .sie_logo {
         width: 30%;
     }
     /* Start of main */
-    #ps5 .my_card p {
-        display: inline-block;
-    } 
+
     #takes_two {
         position: relative;
     }
