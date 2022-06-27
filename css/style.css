@@ -7,6 +7,13 @@
 /* General rules */
 :root {
     --my_color1: #000;
+    --my_btn_color1: #363636;
+}
+
+.my_btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 /* Start of header */
@@ -21,7 +28,30 @@ header .h_top img {
 }
 
 /* Start of h_bottom */
+header .h_bottom_left ul,
+header .h_bottom_right ul {
+    margin-bottom: 0; /* Overwritten Bootstrap rules which gave 16px bottom margin to ul */
+    display: none;
+}
 
+.my_btn {
+    background-color: var(--my_btn_color1);
+}
+
+/* Start of media queries */
+@media screen and (min-width: 992px) {
+    header .h_bottom_left ul {
+        display: inline-block;
+        display: flex;
+    }
+    header .h_bottom_right .my_menu {
+        display: none;
+    }
+    header .h_bottom_right ul {
+        display: inline-block;
+        display: flex;
+    }
+}
 
 /* Debug rules */
 .my_bgc1 {
@@ -38,6 +68,5 @@ header .h_top img {
 
 /* To do
 + header fixed
-+ hover effects
-+ header hidden sub menus shown on hover
++ bonus: hover on navbar items shows other items below
 + 
