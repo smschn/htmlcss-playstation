@@ -308,5 +308,40 @@ footer .sie_logo {
 }
 /* End of transitions */
 
+/* Start of hover effects */
+/* Buttons */
+.hov_eff {
+    cursor: pointer;
+    border: 2px solid transparent;
+    outline: 3px solid transparent;
+}
+
+.hov_btn1:hover {
+    border: 2px solid var(--my_color2);
+    outline: 3px solid var(--my_btn_color1);
+}
+
+.hov_btn2:hover {
+    border: 2px solid var(--my_color2);
+    outline: 3px solid var(--my_btn_color2);
+}
+
+.hov_btn3:hover {
+    border: 2px solid var(--my_color2);
+    outline: 3px solid var(--my_btn_color3);
+}
+
+.hov_btn4:hover {
+    border: 2px solid var(--my_btn_color3);
+    outline: 3px solid var(--my_btn_color4);
+}
+
+.hov_btn5:hover {
+    border: 2px solid var(--my_color1);
+    outline: 3px solid var(--my_color2);
+}
+/* End of hover effects */
+
+
 /* To do
 + bonus: hover on navbar items shows other items below
