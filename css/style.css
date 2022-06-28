@@ -63,7 +63,7 @@ header .my_btn {
 /* End of header */
 
 /* Start of jumbotron */
-#jumbotron { /* unificare tutti e 3 i banner con un unica regola generica */
+#jumbotron {
     margin-top: 88px;
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
@@ -133,11 +133,8 @@ header .my_btn {
     background-position: center;
     width: 100%;
     height: 500px;
-}
-
-#takes_two .my_container {
-    margin: auto;
-    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #takes_two .game_title_logo {
@@ -147,7 +144,6 @@ header .my_btn {
 #takes_two .my_btn {
     background-color: var(--my_btn_color2);
 }
-/* End of takes_two */
 
 /* Start of nuove_uscite */
 #nuove_uscite {
@@ -157,7 +153,6 @@ header .my_btn {
 #nuove_uscite .img_nu {
     width: 100%;
 }
-/* End of nuove_uscite */
 
 /* Start of esplora_ps4 */
 #esplora_ps4 .img_esp {
@@ -168,7 +163,6 @@ header .my_btn {
     background-color: var(--my_btn_color3);
     color: var(--my_color2);
 }
-/* End of esplora_ps4 */
 
 /* Start of p_plus */
 #p_plus {
@@ -191,13 +185,11 @@ header .my_btn {
 #p_plus .my_container_hidden img {
     width: 100%;
 }
-/* End of p_plus */
 
 /* Start of sconti */
 #sconti .img_sconti {
     width: 100%;
 }
-/* End of sconti */
 
 /* Start of ps_now */
 #ps_now {
@@ -224,13 +216,11 @@ header .my_btn {
 #ps_now .img_psnow {
     width: 100%;
 }
-/* End of ps_now */
 
 /* Start of social_media */
 #social_media img {
     width: 100%;
 }
-/* End of social_media */
 /* End of main */
 
 /* Start of footer */
@@ -288,7 +278,6 @@ footer .sie_logo {
         width: 30%;
     }
     /* Start of main */
-
     #takes_two {
         position: relative;
     }
@@ -304,7 +293,16 @@ footer .sie_logo {
 }
 /* End of media queries */
 
+/* Start of transitions */
+/* Cards section */
+.my_card_transition {
+    transition: all 0.2s linear;
+}
+
+.my_card_transition:hover {
+    transform: translateY(-10px);
+}
+/* End of transitions */
+
 /* To do
 + bonus: hover on navbar items shows other items below
-+ bonus: transition effect on cards (translate on y axis in direction to top)
-+ bonus: hover effect in #ps5 with border bottom and 
