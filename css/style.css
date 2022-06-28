@@ -355,3 +355,39 @@ footer .sie_logo {
     border-bottom: 2px solid var(--my_btn_color3);
 }
 /* End of hover effects */
+
+/* Start of dropdown menu */
+.dropdown-menu,
+.dropdown-menu.my_second_dm {
+    display: none !important;
+    margin-top:0px !important;
+    min-width:100vw !important;
+    left: -64px;
+    top: 35px;
+    border: none !important;
+}
+
+.dropdown-menu.my_second_dm {
+    top: 220px;
+    border-top: 1px solid grey !important;
+}
+
+.my_giochi:hover .dropdown-menu,
+.my_giochi:hover .dropdown-menu.my_second_dm {
+    display: block;
+    display: flex !important;
+    justify-content: center;
+}
+
+.my_arrow_hidden {
+    display: none;
+}
+
+.my_giochi:hover .my_arrow_shown {
+    display: none;
+}
+
+.my_giochi:hover .my_arrow_hidden {
+    display: inline-block;
+}
+/* End of dropdown menu*/
