@@ -114,11 +114,16 @@ header .my_btn {
     background-color: var(--my_btn_color3);
 }
 
+#ps5 .my_card:first-child {
+    border-bottom: 2px solid var(--my_btn_color3);
+}
+
 #ps5 .my_card:nth-child(2),
 #ps5 .my_card:nth-child(3),
 #ps5 .my_card:nth-child(4),
 #ps5 .my_card:nth-child(5) {
     opacity: 0.5;
+    border-bottom: 2px solid transparent;
 }
 
 #ps5 .my_card img {
@@ -339,5 +344,14 @@ footer .sie_logo {
 .hov_btn5:hover {
     border: 2px solid var(--my_color1);
     outline: 3px solid var(--my_color2);
+}
+
+/* Cards in ps5 section */
+#ps5 .my_card:nth-child(2):hover,
+#ps5 .my_card:nth-child(3):hover,
+#ps5 .my_card:nth-child(4):hover,
+#ps5 .my_card:nth-child(5):hover {
+    opacity: 1;
+    border-bottom: 2px solid var(--my_btn_color3);
 }
 /* End of hover effects */
