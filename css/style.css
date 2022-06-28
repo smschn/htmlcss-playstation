@@ -98,7 +98,7 @@ header .my_btn {
 }
 
 #cards .my_card:first-child {
-    border: 2px solid var(--my_btn_color3);
+    border: 3px solid var(--my_btn_color3);
 }
 
 /* Start of ps5 */
@@ -341,7 +341,3 @@ footer .sie_logo {
     outline: 3px solid var(--my_color2);
 }
 /* End of hover effects */
-
-
-/* To do
-+ bonus: hover on navbar items shows other items below
