@@ -97,6 +97,10 @@ header .my_btn {
     width: 100%;
 }
 
+#cards .my_card:first-child {
+    border: 2px solid var(--my_btn_color3);
+}
+
 /* Start of ps5 */
 #ps5 h6 {
     color: var(--my_btn_color3);
