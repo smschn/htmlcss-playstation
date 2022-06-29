@@ -185,18 +185,7 @@ header .my_btn {
     width: 100%;
 }
 
-#ps_now .my_hidden {
-    display: none;
-}
-
-#ps_now .img_psnow {
-    width: 100%;
-}
-
 /* Start of social_media */
-#social_media img {
-    width: 100%;
-}
 /* End of main */
 
 /* Start of footer */
@@ -224,10 +213,6 @@ footer .sie_logo {
     /* Start of header */
     #takes_two .game_title_logo {
         width: 300px;
-    }
-    /* Start of main */
-    #ps_now .my_hidden {
-        display: block;
     }
 }
 
