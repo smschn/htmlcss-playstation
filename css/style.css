@@ -120,10 +120,6 @@ header .my_btn {
     border-bottom: 2px solid transparent;
 }
 
-#ps5 .my_card img {
-    width: 100%;
-}
-
 /* Start of takes_two */
 #takes_two {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
@@ -149,15 +145,7 @@ header .my_btn {
     background-color: var(--my_color3);
 }
 
-#nuove_uscite .img_nu {
-    width: 100%;
-}
-
 /* Start of esplora_ps4 */
-#esplora_ps4 .img_esp {
-    width: 100%;
-}
-
 #esplora_ps4 .my_btn {
     background-color: var(--my_btn_color3);
     color: var(--my_color2);
@@ -177,18 +165,7 @@ header .my_btn {
     color: var(--my_btn_color3);
 }
 
-#p_plus .my_container_hidden {
-    display: none;
-}
-
-#p_plus .my_container_hidden img {
-    width: 100%;
-}
-
 /* Start of sconti */
-#sconti .img_sconti {
-    width: 100%;
-}
 
 /* Start of ps_now */
 #ps_now {
@@ -249,9 +226,6 @@ footer .sie_logo {
         width: 300px;
     }
     /* Start of main */
-    #p_plus .my_container_hidden {
-        display: block;
-    }
     #ps_now .my_hidden {
         display: block;
     }
