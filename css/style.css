@@ -24,8 +24,6 @@
     border-radius: 20px;
 }
 
-/* General logo rules */
-
 /* Start of header */
 header {
     position: fixed;
@@ -93,10 +91,6 @@ header .my_btn {
 
 /* Start of main */
 /* Start of cards */
-#cards .my_card img {
-    width: 100%;
-}
-
 #cards .my_card:first-child {
     border: 3px solid var(--my_btn_color3);
 }
@@ -128,10 +122,6 @@ header .my_btn {
 
 #ps5 .my_card img {
     width: 100%;
-}
-
-#ps5 .my_card p {
-    display: none;
 }
 
 /* Start of takes_two */
@@ -259,9 +249,6 @@ footer .sie_logo {
         width: 300px;
     }
     /* Start of main */
-    #ps5 .my_card p {
-        display: inline-block;
-    } 
     #p_plus .my_container_hidden {
         display: block;
     }
